@@ -21,7 +21,208 @@
 
 });
 	</script>
+<style type="text/css">
 
+
+/** Background Gradient **/
+body{
+	margin:0;
+	padding:0;
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2NjY2NjYyIgc3RvcC1vcGFjaXR5PSIwLjY1Ii8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(204,204,204,0.65) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(204,204,204,0.65)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(204,204,204,0.65) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(204,204,204,0.65) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(204,204,204,0.65) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(204,204,204,0.65) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6cccccc', endColorstr='#00ffffff',GradientType=0 ); /* IE6-8 */
+
+}
+
+/** breadcrumb **/
+#container, #breadcrumbs{
+	font-family: Arial,"MS Trebuchet",sans-serif;
+}
+
+#container #breadcrumbs ul li{
+	liststyle:none;
+	display:inline;
+}
+
+#breadcrumbs ul{
+	margin:0;
+	padding:0;
+}
+
+#breadcrumbs span{
+	color:#CC6600;
+}
+
+/* -end breadcrumb- */
+
+
+#container{
+	width:760px;
+	margin:0 auto;
+	overflow: auto;
+}
+
+
+#headline h1{
+	color:#202020;
+	font-size: 31px;
+	font-family: Times, serif;
+	font-weight:normal; 
+
+}
+
+/** Left Column **/
+
+#lcolumn{
+	float:left;
+	width:170px;
+
+}
+
+#photography{
+	font-size:10px;
+	color:grey;
+	text-align:right;
+}
+
+#enlargephoto a{
+	color:#CC6600;
+	font-size:12px;
+	text-decoration:none;
+	background:url("../images/sprites.gif") no-repeat scroll 100px -390px;
+	padding-right:13px;
+}
+
+#caption{
+	font-size:11px;
+}
+
+
+#info {
+    border-bottom: 1px dotted #000000;
+    padding-bottom: 10px;
+}
+
+/* -end Left Column- */
+
+
+/* Right Column */
+
+#maincontent{
+	float:left;
+	padding-left:21px;
+}
+
+#interactbtns ul{
+	padding-bottom:10px;
+	padding:10px 0 0 0;
+	margin:0;
+}
+
+
+.textbtn{
+	text-decoration:none;
+	color:#202020;
+	padding:0 0 0 7px;
+	font-size:14px;
+
+}
+
+#interactbtns li{
+	list-style:none;
+	display:inline;
+
+}
+
+#typesize{
+	padding:0;
+	margin:0;
+}
+
+#content{
+	width:423px;
+	font-size:14px;
+	color:#202020;
+}
+
+#content p.large{
+    font-size:18px;   
+}
+
+#info p{
+	color:#202020;
+	margin:0;
+}
+
+
+#author b {
+    color: #CC6600;
+}
+
+#company {
+    font-size: 13px;
+    padding-bottom:10px;
+}
+
+#published{
+	font-size:12px;
+}
+
+/* -end Right Column- */
+
+
+/* Sprites Buttons */
+
+#print a{
+	background:url("../images/sprites.gif") no-repeat scroll 0 -298px;
+}
+#pcomment{
+	background:url("../images/sprites.gif") no-repeat scroll 0 -478px;
+
+	}
+#emailbtn{
+	background:url("../images/sprites.gif") no-repeat scroll 0 -252px;
+	}
+
+#share{
+	background:url("../images/sprites.gif") no-repeat scroll 0 -343px;
+	}
+
+#btn{
+		background:url("../images/sprites.gif") no-repeat scroll 0 -387px;
+}
+
+.ibtn{
+	text-decoration:none;
+	color:#202020;
+	padding:0 0px 0 18px;
+	font-size:14px;
+
+}
+
+/* --End Sprites Buttons-- */
+
+/* Input Button Style */
+
+ input[type="button"] {
+    border:1px solid #CC6600;
+    color:#CC6600;
+    cursor:pointer;
+    margin:0;
+    text-align:center;
+    padding:0;
+    width:20px;
+    background-color:transparent;
+}
+
+/* --Input Buttons Style-- */	
+	
+</style>
 </head>
 
 <body>
@@ -90,8 +291,8 @@
 <p>Barnes is 8-4 against Kansas State. The Longhorns have won four of the last six, but five of those games were decided by four points or fewer. Texas has won the last two in Manhattan. K-State has a two-game winning steak in Austin.</p>
 	</div>
 	<!-- End Main Content -->	
-	</div>
-	</div>
+	</div><!-- End Main Content -->
+	</div><!-- End Container -->
 </body>
 
 </html>
